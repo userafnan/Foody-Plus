@@ -1,0 +1,32 @@
+.menu-item {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.menu-item h5 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+
+.menu-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.price {
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-success {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}

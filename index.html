@@ -56,7 +56,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" href="#" style="font-weight: bolder; font-size: larger;">Burger</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="burger.html" style="font-weight: bolder; font-size: larger;">Burger</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#" style="font-weight: bolder; font-size: larger;">Fries</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#" style="font-weight: bolder; font-size: larger;">Drinks</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#" style="font-weight: bolder; font-size: larger;">Salad</a></li>
@@ -110,7 +110,7 @@
                     <div class="card-content">
                         <h3>Burger</h3>
                         <p>A symphony of flavors dancing on your palate, each bite revealing a perfect harmony of textures.</p>
-                        <a href="#">Explore</a>
+                        <a href="burger.html">Explore</a>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                 <div class="col-md-4">
                     <h5 style="color: #999999; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">Categories</h5>
                     <ul class="list-unstyled">
-                        <li ><a href="#" class="text-light" style="color: #ffffff; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 13px;">Burger</a></li>
+                        <li ><a href="burger.html" class="text-light" style="color: #ffffff; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 13px;">Burger</a></li>
                         <li><a href="#" class="text-light" style="color: #ffffff; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 13px;">Fries</a></li>
                         <li><a href="#" class="text-light" style="color: #ffffff; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 13px;">Drinks</a></li>
                         <li><a href="#" class="text-light" style="color: #ffffff; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 13px;">Salad</a></li>
@@ -190,24 +190,5 @@
             <p class="text-center" style="color: #999999; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 15px; margin-bottom: 5px;">©2024 Afnan Al Ali</p>
         </div>
     </footer>
-    <script>
-        function toggleLanguage() {
-            // Toggle between English and Arabic content
-            var englishElements = document.querySelectorAll('[id$="En"]');
-            var arabicElements = document.querySelectorAll('[id$="Ar"]');
-            
-            englishElements.forEach(function(el) {
-                el.style.display = (el.style.display === 'none') ? '' : 'none';
-            });
-            
-            arabicElements.forEach(function(el) {
-                el.style.display = (el.style.display === 'none') ? '' : 'none';
-            });
-            
-            // Toggle button text
-            var button = document.querySelector('.btn-outline-light');
-            button.textContent = (button.textContent.trim() === 'ترجمة إلى العربية') ? 'Switch to English' : 'ترجمة إلى العربية';
-        }
-    </script>
 </body>
 </html>
